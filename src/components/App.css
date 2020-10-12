@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap');
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.font-primary {font-family: 'Roboto', sans-serif;}
+.font-secondary {font-family: 'Lato', sans-serif;}
+.font-tertiary {font-family: 'Open Sans', sans-serif;}
+
+/* common styles */
+body {
+    height: 100%;
+    min-height: 100% !important;
+}
+html, #root, .App {
+    height: 100%;
+}
+
+/* borders */
+.border-2 {border-width: 2px !important;}
+.border-3 {border-width: 3px !important;}
+.border-4 {border-width: 4px !important;}
+.border-5 {border-width: 5px !important;}
+
+
+
+
+/* landing page */
+/* .landing-parallax { */
+#landing {
+    background-image: url("../assets/landing_bg.png");
+
+    /* height: 500px; */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 80vh;
+}
+#landing::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.35);
+}
