@@ -17,6 +17,9 @@ body {
 html, #root, .App {
     height: 100%;
 }
+.App {
+    position: relative;
+}
 
 /* borders */
 .border-2 {border-width: 2px !important;}
@@ -24,8 +27,14 @@ html, #root, .App {
 .border-4 {border-width: 4px !important;}
 .border-5 {border-width: 5px !important;}
 
-
-
+/* navbar */
+.navbar-nav>.nav-item {
+    margin-right: 1rem;
+}
+.nav-item>.active{
+    border-bottom: 2px solid;
+    border-color: yellow;
+}
 
 /* landing page */
 /* .landing-parallax { */
@@ -47,4 +56,22 @@ html, #root, .App {
     bottom: 0px;
     left: 0px;
     background-color: rgba(255,255,255,0.35);
+}
+
+@media screen and (max-width: 576px) {
+    /* 576px wide or less - size sm*/
+
+    .navbar.navbar-expand-sm.bg-transparent{
+        background-color: #ffffff !important;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .navbar-collapse {
+        background-color: #ffffff;
+        margin-top: 0.5rem;
+    }
+    .navbar-nav>.nav-item {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
