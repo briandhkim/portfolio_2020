@@ -11,7 +11,7 @@ class NavbarMain extends Component {
         this.state = {
             expanded: false
         };
-        
+
         this.toTop = this.toTop.bind(this);
         this.toggleMobileNavState = this.toggleMobileNavState.bind(this);
         this.closeMobileNav = this.closeMobileNav.bind(this);
@@ -33,9 +33,9 @@ class NavbarMain extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar bg="transparent" expand="lg" fixed="top" expand="sm" onToggle={this.toggleMobileNavState} expanded={this.state.expanded} role="navigation" className="container-lg">
+                <Navbar bg="transparent" fixed="top" expand="sm" onToggle={this.toggleMobileNavState} expanded={this.state.expanded} role="navigation" className="container-lg">
                     <Navbar.Brand onClick={this.toTop}>
-                        <span className="text-bento-primary font-primary border border-3 border-bento-primary p-1 ml-2">
+                        <span className="text-bento font-primary border border-3 border-bento p-1 ml-2">
                             bdhk
                         </span>
                     </Navbar.Brand>
@@ -49,7 +49,7 @@ class NavbarMain extends Component {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-57}
+                                    offset={-57.5}
                                     className="nav-link"
                                     onClick={this.closeMobileNav}
                                     >
@@ -63,7 +63,7 @@ class NavbarMain extends Component {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-57}
+                                    offset={-57.5}
                                     className="nav-link"
                                     onClick={this.closeMobileNav}
                                     >

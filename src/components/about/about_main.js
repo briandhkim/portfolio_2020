@@ -7,7 +7,7 @@ const AboutMain = (props) => {
 
     return (
         <React.Fragment>
-            <Container fluid id="about" className="d-flex h-100 bg-bento-salmon">
+            <Container fluid id="about" className="d-flex h-100 bg-salmon">
                 test
             </Container>
 
