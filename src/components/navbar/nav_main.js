@@ -33,41 +33,41 @@ class NavbarMain extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar bg="transparent" fixed="top" expand="sm" onToggle={this.toggleMobileNavState} expanded={this.state.expanded} role="navigation" className="container-lg">
-                    <Navbar.Brand onClick={this.toTop}>
-                        <span className="text-bento font-primary border border-3 border-bento p-1 ml-2">
+                <Navbar bg="plain-light" fixed="top" expand="sm" onToggle={this.toggleMobileNavState} expanded={this.state.expanded} role="navigation" className="">
+                    <Navbar.Brand onClick={this.toTop} className="cursor-pointer">
+                        <span className="font-primary p-1 ml-2">
                             bdhk
                         </span>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="menu" />
                     <Navbar.Collapse id="menu" className="justify-content-end">
                         <Nav className="font-secondary">
-                            <Nav.Item >
+                            <Nav.Item className="cursor-pointer">
                                 <Link
                                     activeClass="active"
                                     to="about"
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-57.5}
+                                    offset={-59}
                                     className="nav-link"
                                     onClick={this.closeMobileNav}
                                     >
-                                    About
+                                    ABOUT
                                 </Link>
                             </Nav.Item>
-                            <Nav.Item >
+                            <Nav.Item className="cursor-pointer">
                                 <Link
                                     activeClass="active"
                                     to="experience"
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-57.5}
+                                    offset={-59}
                                     className="nav-link"
                                     onClick={this.closeMobileNav}
                                     >
-                                    Experience
+                                    EXPERIENCE
                                 </Link>
                             </Nav.Item>
                         </Nav>

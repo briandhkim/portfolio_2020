@@ -7,7 +7,7 @@ import {animateScroll as scroll} from 'react-scroll';
 const LandingMain = (props) => {
 
     const toAbout = () => {
-        const aboutX = document.getElementById('about').offsetTop - 57.5;
+        const aboutX = document.getElementById('about').offsetTop - 59;
         scroll.scrollTo(aboutX, {
             duration: 500,
             smooth: true
@@ -16,10 +16,10 @@ const LandingMain = (props) => {
 
     return (
         <React.Fragment>
-            <Container fluid id="landing" className="d-flex justify-content-center align-items-end h-100">
+            <Container fluid id="landing" className="d-flex justify-content-center align-items-end h-100 bg-plain-light">
                 <div className="landing-start-btn" onClick={toAbout}>
-                    <FontAwesomeIcon icon={faMouse} size="lg" fixedWidth className="d-block text-salmon"/>
-                    <FontAwesomeIcon icon={faAngleDown} size="lg" fixedWidth className="text-salmon"/> 
+                    <FontAwesomeIcon icon={faMouse} size="lg" fixedWidth className="d-block"/>
+                    <FontAwesomeIcon icon={faAngleDown} size="lg" fixedWidth className=""/> 
                 </div>
             </Container>
         </React.Fragment>

@@ -1,6 +1,22 @@
+$bento-dark:    #222D3D;
+$bento:         #28364A;
+$bento-light:   #3F4F66;
+$salmon-dark:   #EA4B4F;
+$salmon:        #FD7176;
+$salmon-light:  #FE9699;
+$plain:          #F7F8F9;
+$plain-light:    #FFFEFD;
+
 $theme-colors: (
-    "bento": #28364a,
-    "salmon": #fd7176
+    "bento-dark": $bento-dark,
+    "bento": $bento,
+    "bento-light": $bento-light,
+    "salmon-dark": $salmon-dark,
+    "salmon": $salmon,
+    "salmon-light": $salmon-light,
+    "plain": $plain,
+    "plain-light": $plain-light
 );
+
 
 @import "~bootstrap/scss/bootstrap";

@@ -7,7 +7,7 @@ const ExperienceMain = (props) => {
 
     return (
         <React.Fragment>
-            <Container fluid id="experience" className="h-100 bg-bento">
+            <Container fluid id="experience" className="h-100 bg-salmon">
                 <div className="text-white">
                     test
                 </div>
