@@ -18,7 +18,8 @@ const LandingMain = (props) => {
         <React.Fragment>
             <Container fluid id="landing" className="d-flex justify-content-center align-items-end h-100 bg-plain-light">
                 <div className="landing-start-btn" onClick={toAbout}>
-                    <FontAwesomeIcon icon={faMouse} size="lg" fixedWidth className="d-block"/>
+                    {/* <FontAwesomeIcon icon={faMouse} size="lg" fixedWidth className="d-block"/> */}
+                    <div className="text-center">hi.</div>
                     <FontAwesomeIcon icon={faAngleDown} size="lg" fixedWidth className=""/> 
                 </div>
             </Container>

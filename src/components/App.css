@@ -10,6 +10,17 @@ font-family: 'Roboto', sans-serif;
 .font-tertiary {font-family: 'Roboto Slab', serif}
 
 /* common styles */
+::-webkit-scrollbar{
+	width: 7px;
+	/*background-color:rgb(227, 129, 23);*/
+	background-color: #28364A;
+	background-color: white;
+}
+::-webkit-scrollbar-thumb{
+	width: 5px;
+	/* border-radius: 20px; */
+	background-color: #28364A;
+}
 body {
     height: 100%;
     min-height: 100% !important;
@@ -83,7 +94,7 @@ nav.navbar {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(255,255,255,0.4);
+    /* background-color: rgba(255,255,255,0.15); */
 }
 #landing .landing-start-btn {
     cursor: pointer;

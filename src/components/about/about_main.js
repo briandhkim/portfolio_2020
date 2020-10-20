@@ -87,7 +87,12 @@ const AboutMain = (props) => {
                                     <hr className="border-bento-dark border-5 w-50 ml-3" />
                                 </Row>
                                 <div className="font-secondary font-weight-light">
-                                    asefasef asjfoiajsef ijasfoiejase ijaoseifjasef aoisejfoiasjf.
+                                    After graduating from UCLA in 2016 with a BA in Psychology, I spent about a year studying 
+                                    programming. I have since worked at BeSmartee doing both front-end and back-end development.
+                                    My work involves coding with jQuery, Vue.js, PHP, and Laravel. And I also have experience working
+                                    with other JavaScript libraries such as React. Lately, I started learning Go and have completed
+                                    some projects using React and Go.
+                                    
                                 </div>
                             </div>
                         </Col>
