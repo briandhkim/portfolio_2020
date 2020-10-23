@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
-import SectionUnderlineTitle from '../utils/section_underline_title';
 import SectionTitle from '../utils/section_title';
 
 const AboutMain = (props) => {
@@ -13,7 +12,7 @@ const AboutMain = (props) => {
             <div className="bg-bento pb-3 pb-sm-5">
                 <Container id="about" className="text-plain-light">
                     {/* <SectionUnderlineTitle sectionTitle="A bout" titleColor="plain" lineColor="salmon" /> */}
-                    <SectionTitle sectionTitle="About" titleColor="plain-light" lineColor="salmon" />
+                    <SectionTitle sectionTitle="about" titleColor="plain-light" lineColor="salmon" />
 
                     <Row>
                         <Col xs={12} md={6} lg={5} xl={4} className="mb-4 mb-md-0">
@@ -40,7 +39,7 @@ const AboutMain = (props) => {
                                             <span className="font-secondary mr-2 text-salmon">
                                                 company: 
                                             </span>
-                                            <a href="https://www.besmartee.com/" target="_blank" className="font-tertiary font-weight-light text-plain-light">
+                                            <a href="https://www.besmartee.com/" target="_blank" rel="noopener noreferrer" className="font-tertiary font-weight-light text-plain-light">
                                                 BeSmartee
                                             </a>
                                         </ListGroup.Item>
@@ -81,17 +80,18 @@ const AboutMain = (props) => {
                             </div>
                             <div className="cursor-default">
                                 <div className="font-primary h5 font-weight-light">
-                                    My name is Brian, and I am a software developer working at BeSmartee.
+                                    My name is Brian, and I am a software developer.
                                 </div>
                                 <Row >
                                     <hr className="border-bento-dark border-5 w-50 ml-3" />
                                 </Row>
                                 <div className="font-secondary font-weight-light">
-                                    After graduating from UCLA in 2016 with a BA in Psychology, I spent about a year studying 
-                                    programming. I have since worked at BeSmartee doing both front-end and back-end development.
-                                    My work involves coding with jQuery, Vue.js, PHP, and Laravel. And I also have experience working
-                                    with other JavaScript libraries such as React. Lately, I started learning Go and have completed
-                                    some projects using React and Go.
+                                    I am a software developer with experience in both front-end and back-end development. 
+                                    <br/><br/>
+                                    Currently, I am working as a Full-Stack Software Developer in the Production Defect Team (PDT)
+                                    at BeSmartee in Huntington Beach, California. As a member of the PDT team, I strive to provide
+                                    quick, accurate resolution for production level defects. You can read more about my experience 
+                                    at BeSmartee down <span className="cursor-pointer button-salmon">below</span>.
                                     
                                 </div>
                             </div>

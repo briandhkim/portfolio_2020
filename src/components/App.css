@@ -76,6 +76,12 @@ nav.navbar {
     color: #FD7176 !important;
     border-color: #FD7176;
 }
+.button-salmon {
+    color: #FD7176;
+}
+.button-salmon:hover {
+    color: #EA4B4F;
+}
 
 /* landing page */
 /* .landing-parallax { */
@@ -100,11 +106,8 @@ nav.navbar {
     cursor: pointer;
     margin-bottom: 7rem;
     z-index: 1;
-    color: #FD7176;
 }
-#landing .landing-start-btn:hover {
-    color: #EA4B4F;
-}
+
 
 /* about page */
 .about-card-outline {
@@ -124,8 +127,8 @@ nav.navbar {
     /* 576px wide or less - size sm*/
 
     nav.navbar {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .navbar.navbar-expand-sm.bg-transparent{
         background-color: #ffffff !important;

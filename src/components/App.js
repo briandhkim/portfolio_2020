@@ -3,6 +3,7 @@ import React from 'react';
 import NavMain from './navbar/nav_main';
 import LandingMain from './landing/landing_main';
 import AboutMain from './about/about_main';
+import SkillsMain from './skills/skills_main';
 import ExperienceMain from './experience/experience_main';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,6 +16,7 @@ function App() {
       <NavMain />
       <LandingMain />
       <AboutMain />
+      <SkillsMain/>
       <ExperienceMain />
     </div>
   );

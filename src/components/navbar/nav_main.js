@@ -59,6 +59,20 @@ class NavbarMain extends Component {
                             <Nav.Item className="cursor-pointer">
                                 <Link
                                     activeClass="active"
+                                    to="skills"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-59}
+                                    className="nav-link"
+                                    onClick={this.closeMobileNav}
+                                    >
+                                    SKILLS
+                                </Link>
+                            </Nav.Item>
+                            <Nav.Item className="cursor-pointer">
+                                <Link
+                                    activeClass="active"
                                     to="experience"
                                     spy={true}
                                     smooth={true}
