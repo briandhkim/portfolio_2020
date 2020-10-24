@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-import {Link, animateScroll as scroll} from 'react-scroll';
+import {Link} from 'react-scroll';
 
 const NavItem = (props) => {
 

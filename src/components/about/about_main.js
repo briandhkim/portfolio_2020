@@ -4,16 +4,24 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import SectionTitle from '../utils/section_title';
+import {animateScroll as scroll} from 'react-scroll';
 
 const AboutMain = (props) => {
 
+    const toExperience = () => {
+        const experienceX = document.getElementById('experience').offsetTop - 59;
+        scroll.scrollTo(experienceX, {
+            duration: 500,
+            smooth:true
+        });
+    }
+
     return (
         <React.Fragment>
-            <div className="bg-bento pb-3 pb-sm-5">
+            <div className="bg-bento pb-5">
                 <Container id="about" className="text-plain-light">
                     {/* <SectionUnderlineTitle sectionTitle="A bout" titleColor="plain" lineColor="salmon" /> */}
                     <SectionTitle sectionTitle="about" titleColor="plain-light" lineColor="salmon" />
-
                     <Row>
                         <Col xs={12} md={6} lg={5} xl={4} className="mb-4 mb-md-0">
                             <div className="bg-bento-dark p-3">
@@ -91,7 +99,7 @@ const AboutMain = (props) => {
                                     Currently, I am working as a Full-Stack Software Developer in the Production Defect Team (PDT)
                                     at BeSmartee in Huntington Beach, California. As a member of the PDT team, I strive to provide
                                     quick, accurate resolution for production level defects. You can read more about my experience 
-                                    at BeSmartee down <span className="cursor-pointer button-salmon">below</span>.
+                                    at BeSmartee down <span className="cursor-pointer button-salmon" onClick={toExperience}>below</span>.
                                     
                                 </div>
                             </div>

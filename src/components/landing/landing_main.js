@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faMouse, faAngleDown} from '@fortawesome/free-solid-svg-icons';
+import {faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import {animateScroll as scroll} from 'react-scroll';
 
 const LandingMain = (props) => {
