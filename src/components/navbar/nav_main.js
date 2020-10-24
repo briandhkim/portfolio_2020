@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import {Link, animateScroll as scroll} from 'react-scroll';
+import NavItem from './nav_item';
 
 class NavbarMain extends Component {
 
@@ -42,48 +43,9 @@ class NavbarMain extends Component {
                     <Navbar.Toggle aria-controls="menu" />
                     <Navbar.Collapse id="menu" className="justify-content-end">
                         <Nav className="font-secondary">
-                            <Nav.Item className="cursor-pointer">
-                                <Link
-                                    activeClass="active"
-                                    to="about"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={500}
-                                    offset={-59}
-                                    className="nav-link"
-                                    onClick={this.closeMobileNav}
-                                    >
-                                    ABOUT
-                                </Link>
-                            </Nav.Item>
-                            <Nav.Item className="cursor-pointer">
-                                <Link
-                                    activeClass="active"
-                                    to="skills"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={500}
-                                    offset={-59}
-                                    className="nav-link"
-                                    onClick={this.closeMobileNav}
-                                    >
-                                    SKILLS
-                                </Link>
-                            </Nav.Item>
-                            <Nav.Item className="cursor-pointer">
-                                <Link
-                                    activeClass="active"
-                                    to="experience"
-                                    spy={true}
-                                    smooth={true}
-                                    duration={500}
-                                    offset={-59}
-                                    className="nav-link"
-                                    onClick={this.closeMobileNav}
-                                    >
-                                    EXPERIENCE
-                                </Link>
-                            </Nav.Item>
+                            <NavItem toID="about" linkText="ABOUT" navClick={this.closeMobileNav}/>
+                            <NavItem toID="skills" linkText="SKILLS" navClick={this.closeMobileNav} />
+                            <NavItem toID="experience" linkText="EXPERIENCE" navClick={this.closeMobileNav} />
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
