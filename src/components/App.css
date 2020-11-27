@@ -114,6 +114,20 @@ nav.navbar {
     outline: 1px solid #3F4F66;
 }
 
+
+/* skills page */
+.skills-list-icon {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+.skills-list-icon-sub {
+    height: 1.5rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+
+
 @media (min-width: 576px) {
     /* 576px wide or more - above size sm */
     .w-sm-3    {width: 3% !important;}
