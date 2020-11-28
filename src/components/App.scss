@@ -6,8 +6,9 @@ $bento-light-3: #4a768d;
 $salmon-dark:   #EA4B4F;
 $salmon:        #FD7176;
 $salmon-light:  #FE9699;
-$plain-dark:    #FFFAF8;
-$plain:         #F7F8F9;
+$plain-darker:  #BFBBBA;
+$plain-dark:    #E6E1DF;
+$plain:         #FFFAF8;
 $plain-light:   #FFFEFD;
 
 $theme-colors: (
@@ -19,6 +20,7 @@ $theme-colors: (
     "salmon-dark": $salmon-dark,
     "salmon": $salmon,
     "salmon-light": $salmon-light,
+    "plain-darker": $plain-darker,
     "plain-dark": $plain-dark,
     "plain": $plain,
     "plain-light": $plain-light

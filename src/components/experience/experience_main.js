@@ -7,7 +7,7 @@ const ExperienceMain = (props) => {
 
     return (
         <React.Fragment>
-            <div className="bg-bento-light pb-3 pb-sm-5 h-100">
+            <div className="bg-bento-light pb-3 pb-sm-5">
                 <Container id="experience" className="text-plain">
                     <SectionTitle
                         sectionTitle="experience"
