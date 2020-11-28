@@ -1,13 +1,14 @@
 $bento-dark:    #222D3D;
 $bento:         #28364A;
-$bento-light:    #2d394d;
-$bento-light-2:   #3F4F66;
+$bento-light:   #2d394d;
+$bento-light-2: #3F4F66;
 $bento-light-3: #4a768d;
 $salmon-dark:   #EA4B4F;
 $salmon:        #FD7176;
 $salmon-light:  #FE9699;
-$plain:          #F7F8F9;
-$plain-light:    #FFFEFD;
+$plain-dark:    #FFFAF8;
+$plain:         #F7F8F9;
+$plain-light:   #FFFEFD;
 
 $theme-colors: (
     "bento-dark": $bento-dark,
@@ -18,6 +19,7 @@ $theme-colors: (
     "salmon-dark": $salmon-dark,
     "salmon": $salmon,
     "salmon-light": $salmon-light,
+    "plain-dark": $plain-dark,
     "plain": $plain,
     "plain-light": $plain-light
 );

@@ -1,21 +1,21 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import SectionTitle from '../utils/section_title';
+import BeSmartee from './besmartee';
 
 const ExperienceMain = (props) => {
 
     return (
         <React.Fragment>
-            <div className="bg-salmon pb-3 pb-sm-5 h-100">
-                <Container id="experience" className="text-bento">
+            <div className="bg-bento-light pb-3 pb-sm-5 h-100">
+                <Container id="experience" className="text-plain">
                     <SectionTitle
                         sectionTitle="experience"
-                        titleColor="bento"
-                        lineColor="plain"
+                        titleColor="plain"
+                        lineColor="salmon"
                     >
                     </SectionTitle>
+                    <BeSmartee />
                 </Container>
             </div>
         </React.Fragment>
