@@ -21,8 +21,8 @@ const ContactMain = (props) => {
                         subTitle="Let's Talk"
                     />
                     <Row>
-                        <Col xs={12} sm={{span: 10, offset:1}} md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }} className="mb-5 font-secondary h5 font-weight-light">
-                            I'm always interested in new challenges opportunities. Feel free to contact me 
+                        <Col xs={12} sm={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }} className="mb-5 font-secondary h5 font-weight-light cursor-default">
+                            I'm always interested in new challenges opportunities. Feel free to contact me
                             using the email address below or send me a message via LinkedIn.
                         </Col>
                     </Row>

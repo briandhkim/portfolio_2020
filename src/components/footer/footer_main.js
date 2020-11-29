@@ -18,8 +18,8 @@ const FooterMain = (props) => {
 
     return (
         <React.Fragment>
-            <div className="footer-container bg-bento-dark text-plain pb-5 pt-3">
-                <Container className="pb-5">
+            <div className="footer-container bg-dark text-plain pb-5 pt-3">
+                <Container className="">
                     <Row className="pt-5">
                         <Col xs={12} className="text-center">
                             <FontAwesomeIcon icon={faAngleDoubleUp} className="cursor-pointer button-plain" size="lg" onClick={toLanding} />
@@ -38,8 +38,9 @@ const FooterMain = (props) => {
                             </a>
                         </Col>
                     </Row>
+                    <hr className="border-salmon-light" />
                     <Row>
-                        <Col xs={12} className="text-center pt-4 pb-1 font-primary font-weight-light">
+                        <Col xs={12} className="text-center font-primary font-weight-light cursor-default">
                             © 2020 | Dong Hyun Kim
                         </Col>
                     </Row>

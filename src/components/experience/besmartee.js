@@ -12,7 +12,7 @@ class BeSmartee extends Component {
         super(props);
 
         this.state = {
-            showPDTDetails: 0,
+            showPDTDetails: 1,
             showImpDetails: 0,
             showUXDetails: 0
         }
