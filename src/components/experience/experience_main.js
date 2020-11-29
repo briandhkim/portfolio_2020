@@ -13,8 +13,7 @@ const ExperienceMain = (props) => {
                         sectionTitle="experience"
                         titleColor="plain"
                         lineColor="salmon"
-                    >
-                    </SectionTitle>
+                    />
                     <BeSmartee />
                 </Container>
             </div>

@@ -70,7 +70,7 @@ class BeSmartee extends Component {
                         <Col xs={12} sm={{ span: 10, offset: 1 }} className="" >
                             <div>
                                 <a className="h1 button-plain" href="https://www.linkedin.com/company/besmartee/" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faLightbulb} transform={{ rotate: 35 }} className="mr-2" />
+                                    <FontAwesomeIcon icon={faLightbulb} transform={{ rotate: 35 }} className="mr-2 text-warning" fixedWidth />
                                     BeSmartee
                                 </a>
                             </div>
@@ -84,19 +84,19 @@ class BeSmartee extends Component {
                     </Row>
                     <hr className="border-salmon-light" />
                     <Row className="" >
-                        <Col xs={12} sm={{ span: 8, offset: 2 }} >
+                        <Col xs={12} sm={{span:10,offset:1}} md={{ span: 8, offset: 2 }} >
                             <div className="h4 font-secondary">
-                                <FontAwesomeIcon icon={faTools} className="mr-2 text-bento-light-3" />
+                                <FontAwesomeIcon icon={faTools} className="mr-2 text-bento-light-3" fixedWidth />
                                 Production Defect Team
                             </div>
                         </Col>
-                        <Col xs={12} sm={{ span: 8, offset: 2 }}>
+                        <Col xs={12} sm={{span:10,offset:1}} md={{ span: 8, offset: 2 }}>
                             <div className="experience-details-section border-left border-bento-light-3 mb-2">
                                 <div className="h6 font-primary font-weight-light text-plain-darker ml-4">
                                     Oct 2020 - Present / {currentTeamTimeDifference}
                                 </div>
                                 <Button variant="salmon" size="sm" className="ml-4 mb-2" onClick={this.togglePDTDetails}>
-                                    <FontAwesomeIcon icon={this.state.showPDTDetails ? faMinus : faPlus} className="mr-1" />
+                                    <FontAwesomeIcon icon={this.state.showPDTDetails ? faMinus : faPlus} className="mr-1" fixedWidth />
                                     {this.state.showPDTDetails ? "Less" : "More"}
                                 </Button>
                                 <ul className={`font-secondary font-weight-light ${this.state.showPDTDetails ? '' : ' d-none '}`}>
@@ -109,19 +109,19 @@ class BeSmartee extends Component {
                         </Col>
                     </Row>
                     <Row className="">
-                        <Col xs={12} sm={{ span: 8, offset: 2 }} >
+                        <Col xs={12} sm={{span:10,offset:1}} md={{ span: 8, offset: 2 }}>
                             <div className="h4 font-secondary">
-                                <FontAwesomeIcon icon={faProjectDiagram} className="mr-2 text-bento-light-3" />
+                                <FontAwesomeIcon icon={faProjectDiagram} className="mr-2 text-bento-light-3" fixedWidth />
                                 Implementation Team
                             </div>
                         </Col>
-                        <Col xs={12} sm={{ span: 8, offset: 2 }}>
+                        <Col xs={12} sm={{span:10,offset:1}} md={{ span: 8, offset: 2 }}>
                             <div className="experience-details-section border-left border-bento-light-3 mb-2">
                                 <div className="h6 font-primary font-weight-light text-plain-darker ml-4">
                                     Feb 2019 - Oct 2020 / 1 yr 9 mos
                                 </div>
                                 <Button variant="salmon" size="sm" className="ml-4 mb-2" onClick={this.toggleImpDetails}>
-                                    <FontAwesomeIcon icon={this.state.showImpDetails ? faMinus : faPlus} className="mr-1" />
+                                    <FontAwesomeIcon icon={this.state.showImpDetails ? faMinus : faPlus} className="mr-1" fixedWidth />
                                     {this.state.showImpDetails ? "Less" : "More"}
                                 </Button>
                                 <ul className={`font-secondary font-weight-light ${this.state.showImpDetails ? '' : ' d-none '}`}>
@@ -137,25 +137,25 @@ class BeSmartee extends Component {
                         </Col>
                     </Row>
                     <Row className="">
-                        <Col xs={12} sm={{ span: 8, offset: 2 }} >
+                        <Col xs={12} sm={{span:10,offset:1}} md={{ span: 8, offset: 2 }}>
                             <div className="h4 font-secondary">
-                                <FontAwesomeIcon icon={faUsers} className="mr-2 text-bento-light-3" />
+                                <FontAwesomeIcon icon={faUsers} className="mr-2 text-bento-light-3" fixedWidth />
                                 UX Team
                             </div>
                         </Col>
-                        <Col xs={12} sm={{ span: 8, offset: 2 }}>
+                        <Col xs={12} sm={{span:10,offset:1}} md={{ span: 8, offset: 2 }}>
                             <div className="experience-details-section border-left border-bento-light-3 mb-2">
                                 <div className="h6 font-primary font-weight-light text-plain-darker ml-4">
                                     Jul 2018 - Feb 2019 / 8 mos
                                 </div>
                                 <Button variant="salmon" size="sm" className="ml-4 mb-2" onClick={this.toggleUXDetails}>
-                                    <FontAwesomeIcon icon={this.state.showUXDetails ? faMinus : faPlus} className="mr-1" />
+                                    <FontAwesomeIcon icon={this.state.showUXDetails ? faMinus : faPlus} className="mr-1" fixedWidth />
                                     {this.state.showUXDetails ? "Less" : "More"}
                                 </Button>
                                 <ul className={`font-secondary font-weight-light ${this.state.showUXDetails ? '' : ' d-none '}`}>
                                     <li>
                                         <span className="mr-1 font-tertiary font-weight-normal">
-                                            <FontAwesomeIcon icon={faStar} className="text-warning mr-1" />
+                                            <FontAwesomeIcon icon={faStar} className="text-warning" fixedWidth />
                                             Achievement:
                                         </span>
                                         2018 Rookie of the Year

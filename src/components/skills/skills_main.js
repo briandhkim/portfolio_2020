@@ -8,14 +8,14 @@ const SkillsMain = (props) => {
 
     return (
         <React.Fragment>
-            <div className="bg-plain pb-3 pb-sm-5">
+            <div className="bg-plain-light pb-3 pb-sm-5">
                 <Container id="skills" className="text-bento">
                     <SectionTitle
                         sectionTitle="skills"
                         titleColor="bento"
                         lineColor="salmon"
                         subTitleColor="bento-light"
-                    ></SectionTitle>
+                    />
                     <TextView />
                 </Container>
             </div>

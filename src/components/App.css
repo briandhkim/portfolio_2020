@@ -56,6 +56,13 @@ html, #root, .App {
 /* padding */
 /* margin */
 
+.text-linkedin {color: #0a66c2;}
+.button-bento {color: #28364A;}
+.button-bento:hover{color: #4a768d;}
+.button-salmon {color: #FD7176;}
+.button-salmon:hover {color: #EA4B4F;}
+.button-plain {color: #FFFAF8;}
+.button-plain:hover {color: #BFBBBA;}
 
 /* navbar */
 nav.navbar {
@@ -79,18 +86,6 @@ nav.navbar {
     border-bottom: 3px solid;
     color: #FD7176 !important;
     border-color: #FD7176;
-}
-.button-salmon {
-    color: #FD7176;
-}
-.button-salmon:hover {
-    color: #EA4B4F;
-}
-.button-plain {
-    color: #FFFAF8;
-}
-.button-plain:hover {
-    color: #BFBBBA;
 }
 
 /* landing page */
@@ -151,6 +146,8 @@ nav.navbar {
     color: #FD7176;
 }
 
+/* contact page */
+.fa-xxs {font-size: 0.5em;}
 
 @media (min-width: 576px) {
     /* 576px wide or more - above size sm */

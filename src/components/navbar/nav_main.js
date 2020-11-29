@@ -46,6 +46,7 @@ class NavbarMain extends Component {
                             <NavItem toID="about" linkText="ABOUT" navClick={this.closeMobileNav}/>
                             <NavItem toID="skills" linkText="SKILLS" navClick={this.closeMobileNav} />
                             <NavItem toID="experience" linkText="EXPERIENCE" navClick={this.closeMobileNav} />
+                            <NavItem toID="contact" linkText="CONTACT" navClick={this.closeMobileNav} />
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
