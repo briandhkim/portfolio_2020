@@ -6,6 +6,7 @@ import AboutMain from './about/about_main';
 import SkillsMain from './skills/skills_main';
 import ExperienceMain from './experience/experience_main';
 import ContactMain from './contact/contact_main';
+import FooterMain from './footer/footer_main';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
@@ -20,6 +21,7 @@ function App() {
       <SkillsMain/>
       <ExperienceMain />
       <ContactMain />
+      <FooterMain />
     </div>
   );
 }

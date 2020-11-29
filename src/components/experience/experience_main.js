@@ -14,6 +14,7 @@ const ExperienceMain = (props) => {
                         titleColor="plain"
                         lineColor="salmon"
                     />
+                    
                     <BeSmartee />
                 </Container>
             </div>
