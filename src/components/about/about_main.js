@@ -43,14 +43,14 @@ const AboutMain = (props) => {
                                                 title:
                                             </span>
                                             <span className="font-tertiary font-weight-light">
-                                                Software Developer
+                                                Software Engineer
                                             </span>
                                         </ListGroup.Item>
                                         <ListGroup.Item as="li" className="bg-bento-dark border-bento-light cursor-default">
                                             <span className="font-secondary mr-2 text-salmon">
                                                 company:
                                             </span>
-                                            <a href="https://www.besmartee.com/" target="_blank" rel="noopener noreferrer" className="font-tertiary font-weight-light text-plain-light">
+                                            <a href="https://www.linkedin.com/company/besmartee/" target="_blank" rel="noopener noreferrer" className="font-tertiary font-weight-light text-plain-light">
                                                 BeSmartee
                                             </a>
                                         </ListGroup.Item>
@@ -108,15 +108,15 @@ const AboutMain = (props) => {
                             </div>
                             <div className="cursor-default">
                                 <div className="font-primary h5 font-weight-light">
-                                    My name is Brian, and I am a software developer.
+                                    My name is Brian, and I am a software engineer.
                                 </div>
                                 <Row >
                                     <hr className="border-bento-dark border-5 w-50 ml-3" />
                                 </Row>
                                 <div className="font-secondary font-weight-light">
-                                    I am a software developer with experience in both front-end and back-end development.
+                                    I am a software engineer with experience in both front-end and back-end development.
                                     <br /><br />
-                                    Currently, I am working as a Full-Stack Software Developer in the Production Defect Team (PDT)
+                                    Currently, I am working as a Full-Stack Software Engineer for the Production Defect Team (PDT)
                                     at BeSmartee in Huntington Beach, California. As a member of the PDT team, I strive to provide
                                     quick, accurate resolution for production level defects. You can read more about my experience
                                     at BeSmartee down <span className="cursor-pointer button-salmon" onClick={toExperience}>below</span>.

@@ -40,7 +40,7 @@ const FooterMain = (props) => {
                     </Row>
                     <hr className="border-salmon-light" />
                     <Row>
-                        <Col xs={12} className="text-center font-primary font-weight-light cursor-default">
+                        <Col xs={12} className="text-center font-primary font-weight-light small cursor-default">
                             © 2020 | Dong Hyun Kim
                         </Col>
                     </Row>

@@ -170,9 +170,6 @@ class BeSmartee extends Component {
                                         </div>
                                     </li>
                                     <li>
-                                        Coordinated with the Client Success and Implementation departments to provide effective solutions for client requests
-                                    </li>
-                                    <li>
                                         Quickly adapted to coding with various frameworks/libraries including &nbsp;
                                         <span className="font-weight-bold">jQuery</span>, &nbsp;
                                         <span className="font-weight-bold">Vue.js</span>, &nbsp;
@@ -199,6 +196,9 @@ class BeSmartee extends Component {
                                     </li>
                                     <li>
                                         Created clean, reusable code for <span className="font-weight-bold">frontend</span> and <span className="font-weight-bold">backend</span> development
+                                    </li>
+                                    <li>
+                                        Coordinated with the Client Success and Implementation departments to provide effective solutions for client requests
                                     </li>
                                     <li>
                                         Provided guidance and advice to other developers on developing new features and fixing bugs
