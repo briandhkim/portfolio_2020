@@ -91,7 +91,7 @@ nav.navbar {
 /* landing page */
 /* .landing-parallax { */
 #landing {
-    background-image: url("../assets/landing_bg.webp");
+    background-image: url("../assets/landing_bg.webp"), url("../assets/landing_bg.png");
     /* background-image: url("../assets/landing_bg_lg.png"); */
     /* background-image: url("../assets/landing_bg.png"); */
     /* height: 500px; */
