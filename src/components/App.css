@@ -91,18 +91,21 @@ nav.navbar {
 /* landing page */
 /* .landing-parallax { */
 #landing {
-    background-image: url("../assets/landing_bg.webp"), url("../assets/landing_bg.png");
-    /* background-image: url("../assets/landing_bg_lg.png"); */
-    /* background-image: url("../assets/landing_bg.png"); */
-    /* height: 500px; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
+    background: url("../assets/landing_bg.png") fixed;
     background-position: center;
     background-repeat: no-repeat;
+    -o-background-size:auto 90vh; 
+    -moz-background-size:auto 90vh; 
+    -webkit-background-size:auto 90vh; 
     background-size: auto 90vh;
+    /* background-image: url("../assets/landing_bg.webp"); */
+    /* background-image: url("../assets/landing_bg_lg.png"); */
 }
 #landing::before {
     content: "";
-    position: absolute;
+    position: relative;
     top: 0px;
     right: 0px;
     bottom: 0px;

@@ -4,7 +4,7 @@ const SectionTitle = (props) => {
     
     function renderSubTitle(props) {
         return (
-            <div className={`h5 text-center text-${props.subTitleColor} font-secondary font-weight-light mb-2 mb-sm-4`}>
+            <div className={`h5 text-center text-${props.subTitleColor} font-secondary font-weight-light mb-2 mb-sm-4 cursor-default`}>
                 {props.subTitle}
             </div>
         );
