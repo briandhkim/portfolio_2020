@@ -67,7 +67,7 @@ class BeSmartee extends Component {
             <React.Fragment>
                 <div className="besmartee-container font-primary">
                     <Row>
-                        <Col xs={12} sm={{ span: 10, offset: 1 }} className="" >
+                        <Col xs={12} sm={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }} className="" >
                             <div>
                                 <a className="h1 button-plain" href="https://www.linkedin.com/company/besmartee/" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faLightbulb} transform={{ rotate: 35 }} className="text-warning" fixedWidth />
