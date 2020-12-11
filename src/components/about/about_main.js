@@ -21,7 +21,7 @@ const AboutMain = (props) => {
 
     return (
         <React.Fragment>
-            <div className="bg-bento-light pb-5">
+            <div className="bg-bento-light pb-5" style={{'zIndex':'2'}}>
                 <Container id="about" className="text-plain-light">
                     {/* <SectionUnderlineTitle sectionTitle="A bout" titleColor="plain" lineColor="salmon" /> */}
                     <SectionTitle sectionTitle="about" titleColor="plain-light" lineColor="salmon" />

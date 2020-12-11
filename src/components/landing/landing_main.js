@@ -17,18 +17,18 @@ const LandingMain = (props) => {
 
     return (
         <React.Fragment>
-            <div className="position-absolute">
+            <div className="position-absolute landing-parallax">
                 <Parallax
                     bgImage={require('../../assets/landing_bg.png')}
-                    strength={300}
+                    strength={120}
                     style={{
                         width: '90vw',
-                        height: '100vh',
+                        height: '90vh',
                         left: 'calc(-5.55% + 10vw)'
                     }}
                     bgImageStyle={{
                         top:'5%',
-                        height: '85%',
+                        // height: '85%', //height set in css instead
                         width: 'auto'
                     }}
                 >

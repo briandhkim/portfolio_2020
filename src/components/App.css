@@ -119,8 +119,18 @@ nav.navbar {
     margin-bottom: 7rem;
     z-index: 1;
 }
-#landing .react-parallax {
-    overflow: visible;
+.landing-parallax .react-parallax .react-parallax-bgimage {
+    height: 95% !important;
+}
+@media screen and (max-width: 1024px) {
+    .landing-parallax .react-parallax .react-parallax-bgimage {
+        height: 85% !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .landing-parallax .react-parallax .react-parallax-bgimage {
+        height: 83% !important;
+    }
 }
 
 
